@@ -9,8 +9,8 @@ export const Navbar = () => {
 	};
 	return (
 		<nav className="bg-white flex items-center justify-between drop-shadow py-2 px-4">
-			<Link className="flex gap-2" to="/">
-				<img src="../logo.svg" alt="" />
+			<Link className="flex gap-2" to="/RySC">
+				<img src="./logo.svg" alt="" />
 				<div className="">
 					<span className="font-bold ">Ry</span>
 					<span className="font-bold text-violet-700">SC</span>
