@@ -14,7 +14,7 @@ export default function IntroRed() {
 				<ArticleImage
 					float="right"
 					width={350}
-					path="./assets/img/placeholder.JPG"
+					path="../assets/img/placeholder.JPG"
 				/>
 				<p className="py-2 text-justify text-sm">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
