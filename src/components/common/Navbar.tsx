@@ -26,8 +26,8 @@ export const Navbar = () => {
 						<img
 							src={
 								isClicked
-									? "src/assets/img/expand_less.svg"
-									: "src/assets/img/expand_more.svg"
+									? "./assets/img/expand_less.svg"
+									: "./assets/img/expand_more.svg"
 							}
 							alt=""
 						/>

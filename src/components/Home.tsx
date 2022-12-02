@@ -18,7 +18,7 @@ export const Home = () => {
 			<div className="grow-0">
 				<img
 					className="xl:w-[90rem] lg:w-[120rem] md:w-[100rem] w-[100rem]"
-					src="src/assets/img/landing-placeholder.svg"
+					src="./assets/img/landing-placeholder.svg"
 					alt=""
 				/>
 			</div>
