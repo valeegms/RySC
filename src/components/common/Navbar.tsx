@@ -9,7 +9,7 @@ export const Navbar = () => {
 	};
 	return (
 		<nav className="bg-white flex items-center justify-between drop-shadow py-2 px-4">
-			<Link className="flex gap-2" to="/RySC">
+			<Link className="flex gap-2" to="/RySC/">
 				<img src="./logo.svg" alt="" />
 				<div className="">
 					<span className="font-bold ">Ry</span>

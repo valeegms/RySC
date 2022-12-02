@@ -12,7 +12,7 @@ export const AppRouter = () => {
 			</nav>
 			<section>
 				<Routes>
-					<Route path="/RySC" element={<Home />} />
+					<Route path="/RySC/" element={<Home />} />
 					<Route path="/sockets" element={<Sockets />} />
 					<Route path="/seguridad-web/" element={<SeguridadWeb />} />
 					<Route path="/iot/" element={<IoT />} />
