@@ -21,7 +21,7 @@ export default function SSL() {
 					lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in
 					elementum tellus.
 				</p>
-				<ArticleImage width={450} path="RySC/assets/img/placeholder.JPG" />
+				<ArticleImage width={450} path="./RySC/assets/img/placeholder.JPG" />
 			</ArticleContent>
 		</Article>
 	);
