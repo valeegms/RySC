@@ -14,7 +14,7 @@ export const Intro = () => {
 				<ArticleImage
 					float="right"
 					width={350}
-					path="RySC/assets/img/placeholder.JPG"
+					path="./RySC/assets/img/placeholder.JPG"
 				/>
 				<p className="py-2 text-justify text-sm">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu

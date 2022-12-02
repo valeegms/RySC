@@ -14,15 +14,18 @@ export default function Nosotros() {
 			</div>
 			<div className="flex justify-between">
 				<MemberCard>
-					<MemberPhoto width={175} path="RySC/assets/img/female-student.svg" />
+					<MemberPhoto
+						width={175}
+						path="./RySC/assets/img/female-student.svg"
+					/>
 					<MemberName name="Valeria Ysabel González Meneses" />
 				</MemberCard>
 				<MemberCard>
-					<MemberPhoto width={175} path="RySC/assets/img/male-student1.svg" />
+					<MemberPhoto width={175} path="./RySC/assets/img/male-student1.svg" />
 					<MemberName name="Raúl Antonio Villanueva Hernández" />
 				</MemberCard>
 				<MemberCard>
-					<MemberPhoto width={175} path="RySC/assets/img/male-student2.svg" />
+					<MemberPhoto width={175} path="./RySC/assets/img/male-student2.svg" />
 					<MemberName name="Vicente Nava Montoya" />
 				</MemberCard>
 			</div>
