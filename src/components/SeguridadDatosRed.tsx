@@ -1,41 +1,46 @@
-import { useRef } from "react";
-import HoneyNets from "./SeguridadDatosRed/HoneyNets";
-import Perimetrales from "./SeguridadDatosRed/Perimetrales";
-import IntroRed from "./SeguridadDatosRed/IntroRed";
-import { ContentLink } from "./ui";
+import { ContentPhoto, ContentTitle } from "./ui";
 import { ArticleBanner } from "./ui/Article/Article";
-import IndexCard from "./ui/IndexCard";
+import { NavLink } from "react-router-dom";
+import ContentCard from "./ui/ContentCard";
 
 export const SeguridadDatosWeb = () => {
-	const introRef = useRef<HTMLDivElement | null>(null);
-	const perimetralesRef = useRef<HTMLDivElement | null>(null);
-	const honeynetsRef = useRef<HTMLDivElement | null>(null);
-
 	return (
-		<section className="bg-gray-100">
+		<section>
 			<ArticleBanner path="./assets/img/placeholder.JPG" />
-			<div className="flex gap-8 mx-4">
-				{/* index */}
-				<IndexCard>
-					<ContentLink linkTitle="Introducción" refSetter={introRef} />
-					<ContentLink
-						linkTitle="¿Qué son las Redes Perimetrales?"
-						refSetter={perimetralesRef}
+			<div className="flex gap-8 mx-4 justify-center">
+				<ContentCard>
+					<ContentPhoto
+						width={250}
+						path="https://th.bing.com/th/id/R.463c3a3340d4d5eac83877acc3e4143c?rik=mlHs7VrD%2f0jcRg&pid=ImgRaw&r=0"
 					/>
-					<ContentLink linkTitle="HoneyNets" refSetter={honeynetsRef} />
-				</IndexCard>
-				{/* contenido */}
-				<article className="w-3/5 bg-white px-8 py-8 gap-1">
-					<div ref={introRef}>
-						<IntroRed />
-					</div>
-					<div ref={perimetralesRef}>
-						<Perimetrales />
-					</div>
-					<div ref={honeynetsRef}>
-						<HoneyNets />
-					</div>
-				</article>
+					<ContentTitle title="Introducción" />
+					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+						<NavLink to="/RySC/seguridad-datos-red/Intro">Leer</NavLink>
+					</button>
+				</ContentCard>
+				<ContentCard>
+					<ContentPhoto
+						width={250}
+						path="https://th.bing.com/th/id/OIP.0_05fwtp6wOeNCBZURoRsgHaE8?pid=ImgDet&rs=1"
+					/>
+					<ContentTitle title="Redes Perimetrales" />
+					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+						<NavLink to="/RySC/seguridad-datos-red/redes-perimetrales">
+							Leer
+						</NavLink>
+					</button>
+				</ContentCard>
+				<ContentCard>
+					<ContentPhoto
+						width={250}
+						height={250}
+						path="https://gloify.com/wp-content/uploads/2020/06/SSL-.png"
+					/>
+					<ContentTitle title="HoneyNets" />
+					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+						<NavLink to="/RySC/seguridad-datos-red/honeynets">Leer</NavLink>
+					</button>
+				</ContentCard>
 			</div>
 		</section>
 	);
