@@ -33,7 +33,7 @@ export const Home = () => {
 							Ver contenido
 						</button>
 						<button className="xl:text-md lg:text-base text-sm py-2 px-6 rounded-[4px] border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 cursor-pointer">
-							<NavLink to="/RySC/nosotros">Sobre nosotros</NavLink>
+							<NavLink to="/nosotros">Sobre nosotros</NavLink>
 						</button>
 					</div>
 				</article>

@@ -14,7 +14,7 @@ export const SeguridadWeb = () => {
 					/>
 					<ContentTitle title="Introducción" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/seguridad-web/Intro">Leer</NavLink>
+						<NavLink to="/seguridad-web/Intro">Leer</NavLink>
 					</button>
 				</ContentCard>
 				<ContentCard>
@@ -24,7 +24,7 @@ export const SeguridadWeb = () => {
 					/>
 					<ContentTitle title="HTTPS" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/seguridad-web/HTTPS">Leer</NavLink>
+						<NavLink to="/seguridad-web/HTTPS">Leer</NavLink>
 					</button>
 				</ContentCard>
 				<ContentCard>
@@ -35,7 +35,7 @@ export const SeguridadWeb = () => {
 					/>
 					<ContentTitle title="SSL" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/seguridad-web/SSL">Leer</NavLink>
+						<NavLink to="/seguridad-web/SSL">Leer</NavLink>
 					</button>
 				</ContentCard>
 			</div>

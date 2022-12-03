@@ -15,7 +15,7 @@ export default function IoT() {
 					/>
 					<ContentTitle title="Introducción" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/iot/Intro">Leer</NavLink>
+						<NavLink to="/iot/Intro">Leer</NavLink>
 					</button>
 				</ContentCard>
 				<ContentCard>
@@ -25,7 +25,7 @@ export default function IoT() {
 					/>
 					<ContentTitle title="Sección 1" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/iot/HTTPS">Leer</NavLink>
+						<NavLink to="/iot/HTTPS">Leer</NavLink>
 					</button>
 				</ContentCard>
 				<ContentCard>
@@ -36,7 +36,7 @@ export default function IoT() {
 					/>
 					<ContentTitle title="Sección 2" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/iot/SSL">Leer</NavLink>
+						<NavLink to="/iot/SSL">Leer</NavLink>
 					</button>
 				</ContentCard>
 			</div>

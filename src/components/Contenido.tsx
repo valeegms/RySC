@@ -18,19 +18,15 @@ export const Contenido = () => {
 						</div>
 						<SectionCardBack>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/seguridad-datos-red/Intro">
-									Introducción
-								</NavLink>
+								<NavLink to="/seguridad-datos-red/Intro">Introducción</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/seguridad-datos-red/redes-perimetrales">
+								<NavLink to="/seguridad-datos-red/redes-perimetrales">
 									Redes Perimetrales
 								</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/seguridad-datos-red/honeynets">
-									HoneyNets
-								</NavLink>
+								<NavLink to="/seguridad-datos-red/honeynets">HoneyNets</NavLink>
 							</button>
 						</SectionCardBack>
 					</SectionCard>
@@ -41,13 +37,13 @@ export const Contenido = () => {
 						</div>
 						<SectionCardBack>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/iot/Intro">Introducción</NavLink>
+								<NavLink to="/iot/Intro">Introducción</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/iot/">Sección 1</NavLink>
+								<NavLink to="/iot/">Sección 1</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/iot/">Sección 2</NavLink>
+								<NavLink to="/iot/">Sección 2</NavLink>
 							</button>
 						</SectionCardBack>
 					</SectionCardAmber>
@@ -60,13 +56,13 @@ export const Contenido = () => {
 						</div>
 						<SectionCardBack>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/seguridad-web/Intro">Introducción</NavLink>
+								<NavLink to="/seguridad-web/Intro">Introducción</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/seguridad-web/HTTPS">HTTPS</NavLink>
+								<NavLink to="/seguridad-web/HTTPS">HTTPS</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/seguridad-web/SSL">SSL</NavLink>
+								<NavLink to="/seguridad-web/SSL">SSL</NavLink>
 							</button>
 						</SectionCardBack>
 					</SectionCardAmber>
@@ -77,13 +73,13 @@ export const Contenido = () => {
 						</div>
 						<SectionCardBack>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/sockets/Intro">Introducción</NavLink>
+								<NavLink to="/sockets/Intro">Introducción</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/sockets/">Sección 1</NavLink>
+								<NavLink to="/sockets/">Sección 1</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/RySC/sockets/">Sección 2</NavLink>
+								<NavLink to="/sockets/">Sección 2</NavLink>
 							</button>
 						</SectionCardBack>
 					</SectionCard>

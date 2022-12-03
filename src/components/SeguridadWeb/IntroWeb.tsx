@@ -1,15 +1,15 @@
 import { Badge } from "../ui";
 import Article, {
-	ArticleContent,
-	ArticleImage,
 	ArticleTitle,
+	ArticleImage,
+	ArticleContent,
 } from "../ui/Article/Article";
 
-export default function Intro() {
+export const IntroWeb = () => {
 	return (
 		<Article>
-			<Badge title="IoT" />
-			<ArticleTitle title="Internet de las Cosas" />
+			<Badge title="Seguridad" />
+			<ArticleTitle title="Seguridad en la Web" />
 			<ArticleContent>
 				<ArticleImage
 					float="right"
@@ -31,4 +31,4 @@ export default function Intro() {
 			</ArticleContent>
 		</Article>
 	);
-}
+};

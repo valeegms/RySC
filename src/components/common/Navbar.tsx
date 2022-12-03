@@ -16,7 +16,7 @@ export const Navbar = () => {
 	};
 	return (
 		<nav className="bg-white flex items-center justify-between drop-shadow py-2 px-4">
-			<Link className="flex gap-2" to="/RySC/">
+			<Link className="flex gap-2" to="/">
 				<img onError={changeSrc} src={`${imgSrc}logo.svg`} alt="" />
 				<div className="">
 					<span className="font-bold ">Ry</span>
@@ -36,13 +36,13 @@ export const Navbar = () => {
 						}
 					>
 						<NavLink
-							to="/RySC/seguridad-web"
+							to="/seguridad-web"
 							className="cursor-pointer text-gray-400 px-4 py-2 hover:bg-violet-200 hover:text-violet-700"
 						>
 							Seguridad en la web
 						</NavLink>
 						<NavLink
-							to="/RySC/seguridad-datos-red"
+							to="/seguridad-datos-red"
 							className="cursor-pointer text-gray-400 px-4 py-2 hover:bg-violet-200 hover:text-violet-700"
 						>
 							Seguridad en la comunicación de datos de una red
@@ -51,19 +51,19 @@ export const Navbar = () => {
 				</span>
 				<NavLink
 					className="lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700"
-					to="/RySC/sockets"
+					to="/sockets"
 				>
 					Sockets
 				</NavLink>
 				<NavLink
 					className="lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700"
-					to="/RySC/iot"
+					to="/iot"
 				>
 					IoT
 				</NavLink>
 				<NavLink
 					className="lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700"
-					to="/RySC/nosotros"
+					to="/nosotros"
 				>
 					Nosotros
 				</NavLink>

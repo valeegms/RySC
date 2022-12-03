@@ -8,12 +8,13 @@ import Article, {
 export default function IntroRed() {
 	return (
 		<Article>
+			<Badge title="Socket" />
 			<ArticleTitle title="Seguridad en la comunicación de datos de una red" />
 			<ArticleContent>
 				<ArticleImage
 					float="right"
 					width={350}
-					path="./../assets/img/placeholder.JPG"
+					path="./assets/img/placeholder.JPG"
 				/>
 				<p className="py-2 text-justify text-sm">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu

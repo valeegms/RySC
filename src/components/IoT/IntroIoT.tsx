@@ -1,20 +1,20 @@
 import { Badge } from "../ui";
 import Article, {
-	ArticleTitle,
-	ArticleImage,
 	ArticleContent,
+	ArticleImage,
+	ArticleTitle,
 } from "../ui/Article/Article";
 
-export const Intro = () => {
+export default function IntroIoT() {
 	return (
 		<Article>
-			{/* <Badge title="Seguridad" /> */}
-			<ArticleTitle title="Seguridad en la Web" />
+			<Badge title="IoT" />
+			<ArticleTitle title="Internet de las Cosas" />
 			<ArticleContent>
 				<ArticleImage
 					float="right"
 					width={350}
-					path="./../assets/img/placeholder.JPG"
+					path="./assets/img/placeholder.JPG"
 				/>
 				<p className="py-2 text-justify text-sm">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
@@ -31,4 +31,4 @@ export const Intro = () => {
 			</ArticleContent>
 		</Article>
 	);
-};
+}

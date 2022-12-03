@@ -2,9 +2,10 @@ import { Route, Routes } from "react-router-dom";
 import { Home, Sockets, SeguridadWeb, SeguridadDatosWeb } from "..";
 import { Navbar } from "../common";
 import IoT from "../IoT";
+import IntroIoT from "../IoT/IntroIoT";
 import Nosotros from "../Nosotros";
 import IntroRed from "../SeguridadDatosRed/IntroRed";
-import { Intro } from "../SeguridadWeb/Intro";
+import { IntroWeb } from "../SeguridadWeb/IntroWeb";
 import IntroSockets from "../Sockets/IntroSockets";
 
 export const AppRouter = () => {
@@ -15,22 +16,19 @@ export const AppRouter = () => {
 			</nav>
 			<section>
 				<Routes>
-					<Route path="/RySC/*" element={<Home />} />
-					<Route path="/RySC/sockets/*" element={<Sockets />} />
-					<Route path="/RySC/sockets/Intro" element={<IntroSockets />} />
-					<Route path="/RySC/seguridad-web/*" element={<SeguridadWeb />} />
-					<Route path="/RySC/seguridad-web/Intro" element={<Intro />} />
-					<Route path="/RySC/iot/*" element={<IoT />} />
-					<Route path="/RySC/iot/Intro" element={<IoT />} />
+					<Route path="/" element={<Home />} />
+					<Route path="/sockets/*" element={<Sockets />} />
+					<Route path="/sockets/Intro" element={<IntroSockets />} />
+					<Route path="/seguridad-web/*" element={<SeguridadWeb />} />
+					<Route path="/seguridad-web/Intro" element={<IntroWeb />} />
+					<Route path="/iot/*" element={<IoT />} />
+					<Route path="/iot/Intro" element={<IntroIoT />} />
 					<Route
-						path="/RySC/seguridad-datos-red/*"
+						path="/seguridad-datos-red/*"
 						element={<SeguridadDatosWeb />}
 					/>
-					<Route
-						path="/RySC/seguridad-datos-red/Intro"
-						element={<IntroRed />}
-					/>
-					<Route path="/RySC/nosotros" element={<Nosotros />} />
+					<Route path="/seguridad-datos-red/Intro" element={<IntroRed />} />
+					<Route path="/nosotros" element={<Nosotros />} />
 				</Routes>
 			</section>
 		</main>

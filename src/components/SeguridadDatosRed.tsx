@@ -15,7 +15,7 @@ export const SeguridadDatosWeb = () => {
 					/>
 					<ContentTitle title="Introducción" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/seguridad-datos-red/Intro">Leer</NavLink>
+						<NavLink to="/seguridad-datos-red/Intro">Leer</NavLink>
 					</button>
 				</ContentCard>
 				<ContentCard>
@@ -25,9 +25,7 @@ export const SeguridadDatosWeb = () => {
 					/>
 					<ContentTitle title="Redes Perimetrales" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/seguridad-datos-red/redes-perimetrales">
-							Leer
-						</NavLink>
+						<NavLink to="/seguridad-datos-red/redes-perimetrales">Leer</NavLink>
 					</button>
 				</ContentCard>
 				<ContentCard>
@@ -38,7 +36,7 @@ export const SeguridadDatosWeb = () => {
 					/>
 					<ContentTitle title="HoneyNets" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/RySC/seguridad-datos-red/honeynets">Leer</NavLink>
+						<NavLink to="/seguridad-datos-red/honeynets">Leer</NavLink>
 					</button>
 				</ContentCard>
 			</div>
