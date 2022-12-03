@@ -1,36 +1,32 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-
 export const Navbar = () => {
+	const [imgSrc, setImgSrc] = useState("../");
 	const [isClicked, setIsClicked] = useState(false);
 
-	const clickHandler = () => {
+	const changeSrc = () => {
+		setImgSrc("./");
+	};
+
+	const mouseEnter = () => {
+		setIsClicked(!isClicked);
+	};
+	const mouseLeave = () => {
 		setIsClicked(!isClicked);
 	};
 	return (
 		<nav className="bg-white flex items-center justify-between drop-shadow py-2 px-4">
 			<Link className="flex gap-2" to="/RySC/">
-				<img src="./logo.svg" alt="" />
+				<img onError={changeSrc} src={`${imgSrc}logo.svg`} alt="" />
 				<div className="">
 					<span className="font-bold ">Ry</span>
 					<span className="font-bold text-violet-700">SC</span>
 				</div>
 			</Link>
 			<section className="flex align-middle gap-4">
-				<span>
-					<button
-						onClick={clickHandler}
-						className="flex place-items-center cursor-pointer gap-2 lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700"
-					>
-						<p className="">Seguridad</p>
-						<img
-							src={
-								isClicked
-									? "./../assets/img/expand_less.svg"
-									: "./../assets/img/expand_more.svg"
-							}
-							alt=""
-						/>
+				<span onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
+					<button className="flex place-items-center cursor-pointer gap-2 lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700">
+						Seguridad
 					</button>
 					<div
 						className={
@@ -40,15 +36,13 @@ export const Navbar = () => {
 						}
 					>
 						<NavLink
-							onClick={clickHandler}
-							to="/seguridad-web"
+							to="/RySC/seguridad-web"
 							className="cursor-pointer text-gray-400 px-4 py-2 hover:bg-violet-200 hover:text-violet-700"
 						>
 							Seguridad en la web
 						</NavLink>
 						<NavLink
-							onClick={clickHandler}
-							to="/seguridad-datos-red"
+							to="/RySC/seguridad-datos-red"
 							className="cursor-pointer text-gray-400 px-4 py-2 hover:bg-violet-200 hover:text-violet-700"
 						>
 							Seguridad en la comunicación de datos de una red
@@ -57,19 +51,19 @@ export const Navbar = () => {
 				</span>
 				<NavLink
 					className="lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700"
-					to="/sockets"
+					to="/RySC/sockets"
 				>
 					Sockets
 				</NavLink>
 				<NavLink
 					className="lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700"
-					to="/iot"
+					to="/RySC/iot"
 				>
 					IoT
 				</NavLink>
 				<NavLink
 					className="lg:text-base text-sm font-medium text-gray-400 p-2 hover:text-violet-700"
-					to="/nosotros"
+					to="/RySC/nosotros"
 				>
 					Nosotros
 				</NavLink>

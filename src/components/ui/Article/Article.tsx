@@ -1,7 +1,11 @@
 import { MutableRefObject } from "react";
 
 export default function Article(props: any) {
-	return <article className="">{props.children}</article>;
+	return (
+		<article className="w-3/4 bg-white px-8 py-8 m-auto">
+			{props.children}
+		</article>
+	);
 }
 
 export const ArticleBanner: React.FC<{ path: string }> = ({ path }) => {
@@ -37,5 +41,5 @@ export const ArticleTitle: React.FC<{
 };
 
 export const ArticleContent: React.FC<{ children: any }> = ({ children }) => {
-	return <div className="">{children}</div>;
+	return <div>{children}</div>;
 };

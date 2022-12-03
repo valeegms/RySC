@@ -8,13 +8,13 @@ import Article, {
 export const Intro = () => {
 	return (
 		<Article>
-			<Badge title="Seguridad" />
+			{/* <Badge title="Seguridad" /> */}
 			<ArticleTitle title="Seguridad en la Web" />
 			<ArticleContent>
 				<ArticleImage
 					float="right"
 					width={350}
-					path="./RySC/assets/img/placeholder.JPG"
+					path="./../assets/img/placeholder.JPG"
 				/>
 				<p className="py-2 text-justify text-sm">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import SectionCard, {
 	SectionCardAmber,
 	SectionCardBack,
@@ -17,13 +18,19 @@ export const Contenido = () => {
 						</div>
 						<SectionCardBack>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								Introducción
+								<NavLink to="/RySC/seguridad-datos-red/Intro">
+									Introducción
+								</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								Redes Perimetrales
+								<NavLink to="/RySC/seguridad-datos-red/redes-perimetrales">
+									Redes Perimetrales
+								</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								HoneyNets
+								<NavLink to="/RySC/seguridad-datos-red/honeynets">
+									HoneyNets
+								</NavLink>
 							</button>
 						</SectionCardBack>
 					</SectionCard>
@@ -34,25 +41,51 @@ export const Contenido = () => {
 						</div>
 						<SectionCardBack>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								Introducción
+								<NavLink to="/RySC/iot/Intro">Introducción</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								Sección 1
+								<NavLink to="/RySC/iot/">Sección 1</NavLink>
 							</button>
 							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								Sección 2
+								<NavLink to="/RySC/iot/">Sección 2</NavLink>
 							</button>
 						</SectionCardBack>
 					</SectionCardAmber>
 				</div>
 				<div className="flex gap-8">
 					<SectionCardAmber>
-						<SectionPhoto width={200} path="./assets/img/secure-server.svg" />
-						<SectionTitle title="Seguridad en la web" />
+						<div className="front">
+							<SectionPhoto width={200} path="./assets/img/secure-server.svg" />
+							<SectionTitle title="Seguridad en la web" />
+						</div>
+						<SectionCardBack>
+							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+								<NavLink to="/RySC/seguridad-web/Intro">Introducción</NavLink>
+							</button>
+							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+								<NavLink to="/RySC/seguridad-web/HTTPS">HTTPS</NavLink>
+							</button>
+							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+								<NavLink to="/RySC/seguridad-web/SSL">SSL</NavLink>
+							</button>
+						</SectionCardBack>
 					</SectionCardAmber>
 					<SectionCard>
-						<SectionPhoto width={200} path="./assets/img/socket.svg" />
-						<SectionTitle title="Programación de aplicaciones con sockets" />
+						<div className="front">
+							<SectionPhoto width={200} path="./assets/img/socket.svg" />
+							<SectionTitle title="Programación de aplicaciones con sockets" />
+						</div>
+						<SectionCardBack>
+							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+								<NavLink to="/RySC/sockets/Intro">Introducción</NavLink>
+							</button>
+							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+								<NavLink to="/RySC/sockets/">Sección 1</NavLink>
+							</button>
+							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+								<NavLink to="/RySC/sockets/">Sección 2</NavLink>
+							</button>
+						</SectionCardBack>
 					</SectionCard>
 				</div>
 			</section>
