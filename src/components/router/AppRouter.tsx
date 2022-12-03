@@ -13,11 +13,14 @@ export const AppRouter = () => {
 			<section>
 				<Routes>
 					<Route path="/RySC/" element={<Home />} />
-					<Route path="/sockets" element={<Sockets />} />
-					<Route path="/seguridad-web/" element={<SeguridadWeb />} />
-					<Route path="/iot/" element={<IoT />} />
-					<Route path="/seguridad-datos-red/" element={<SeguridadDatosWeb />} />
-					<Route path="/nosotros" element={<Nosotros />} />
+					<Route path="/RySC/sockets" element={<Sockets />} />
+					<Route path="/RySC/seguridad-web/" element={<SeguridadWeb />} />
+					<Route path="/RySC/iot/" element={<IoT />} />
+					<Route
+						path="/RySC/seguridad-datos-red/"
+						element={<SeguridadDatosWeb />}
+					/>
+					<Route path="/RySC/nosotros" element={<Nosotros />} />
 				</Routes>
 			</section>
 		</main>
