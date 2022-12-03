@@ -11,7 +11,7 @@ export const SeguridadWeb = () => {
 
 	return (
 		<section className="bg-gray-100">
-			<ArticleBanner path="./RySC/assets/img/placeholder.JPG" />
+			<ArticleBanner path="./assets/img/placeholder.JPG" />
 			<div className="flex gap-8 mx-4">
 				{/* index */}
 				<IndexCard>
