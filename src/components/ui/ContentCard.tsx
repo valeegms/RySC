@@ -18,7 +18,7 @@ export const ContentTitle: React.FC<{
 	title: string;
 }> = ({ title }) => {
 	return (
-		<h3 className="text-center text-xl font-semibold mb-2 text-gray-800">
+		<h3 className="text-center text-base font-semibold my-2 text-gray-800">
 			{title}
 		</h3>
 	);

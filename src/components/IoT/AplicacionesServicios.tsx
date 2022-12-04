@@ -9,7 +9,7 @@ export default function AplicacionesServicios() {
 	return (
 		<Article>
 			<Badge title="IoT" />
-			<ArticleTitle title="Datos relevantes en la historia del IoT" />
+			<ArticleTitle title="Aplicaciones y Servicios" />
 			<ArticleContent>
 				<p className="py-2 text-justify text-sm">
 					A continuación, se presenta una breve lista de aplicaciones y

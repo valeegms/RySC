@@ -33,13 +33,6 @@ export function SectionCardBack(props: any) {
 	);
 }
 
-export const SectionLink: React.FC<{
-	title: string;
-}> = ({ title }) => {
-	// return <NavLink to="/nosotros">Sobre nosotros</NavLink>;
-	return <div>{title}</div>;
-};
-
 export const SectionPhoto: React.FC<{
 	width?: number;
 	height?: number;
