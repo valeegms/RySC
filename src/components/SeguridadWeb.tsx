@@ -30,8 +30,7 @@ export const SeguridadWeb = () => {
 				<ContentCard>
 					<ContentPhoto
 						width={250}
-						height={250}
-						path="https://gloify.com/wp-content/uploads/2020/06/SSL-.png"
+						path="https://www.knownhost.com/blog/wp-content/uploads/2019/04/SSL-1.jpg"
 					/>
 					<ContentTitle title="SSL" />
 					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">

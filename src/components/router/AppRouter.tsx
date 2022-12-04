@@ -5,7 +5,9 @@ import IoT from "../IoT";
 import IntroIoT from "../IoT/IntroIoT";
 import Nosotros from "../Nosotros";
 import IntroRed from "../SeguridadDatosRed/IntroRed";
+import HTTPS from "../SeguridadWeb/HTTPS";
 import { IntroWeb } from "../SeguridadWeb/IntroWeb";
+import SSL from "../SeguridadWeb/SSL";
 import IntroSockets from "../Sockets/IntroSockets";
 
 export const AppRouter = () => {
@@ -21,6 +23,8 @@ export const AppRouter = () => {
 					<Route path="/sockets/Intro" element={<IntroSockets />} />
 					<Route path="/seguridad-web/*" element={<SeguridadWeb />} />
 					<Route path="/seguridad-web/Intro" element={<IntroWeb />} />
+					<Route path="/seguridad-web/https" element={<HTTPS />} />
+					<Route path="/seguridad-web/ssl" element={<SSL />} />
 					<Route path="/iot/*" element={<IoT />} />
 					<Route path="/iot/Intro" element={<IntroIoT />} />
 					<Route

@@ -9,14 +9,9 @@ import Article, {
 export const IntroWeb = () => {
 	return (
 		<Article>
-			<Badge title="Seguridad" />
+			<Badge title="Seguridad en la Web" />
 			<ArticleTitle title="Seguridad en la Web" />
 			<ArticleContent>
-				{/* <ArticleImage
-						float="right"
-						width={350}
-						path="./assets/img/placeholder.JPG"
-					/> */}
 				<p className="py-2 text-justify text-sm">
 					La seguridad web consiste en cada acción o herramienta adoptada para
 					evitar que las información o datos sean expuestos o propensos a
