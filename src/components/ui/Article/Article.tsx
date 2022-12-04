@@ -40,6 +40,17 @@ export const ArticleTitle: React.FC<{
 	);
 };
 
+export const ArticleSubtitle: React.FC<{
+	linkRef?: MutableRefObject<HTMLHeadingElement | null>;
+	title: string;
+}> = ({ linkRef, title }) => {
+	return (
+		<h1 ref={linkRef} className="text-xl font-semibold text-gray-800">
+			{title}
+		</h1>
+	);
+};
+
 export const ArticleContent: React.FC<{ children: any }> = ({ children }) => {
 	return <div>{children}</div>;
 };
