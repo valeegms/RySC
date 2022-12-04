@@ -17,17 +17,21 @@ export const Contenido = () => {
 							<SectionTitle title="Seguridad en la comunicación de datos en una red" />
 						</div>
 						<SectionCardBack>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/seguridad-datos-red/Intro">Introducción</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/seguridad-datos-red/redes-perimetrales">
+							<NavLink to="/seguridad-datos-red/Intro">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Introducción
+								</button>
+							</NavLink>
+							<NavLink to="/seguridad-datos-red/redes-perimetrales">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
 									Redes Perimetrales
-								</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/seguridad-datos-red/honeynets">HoneyNets</NavLink>
-							</button>
+								</button>
+							</NavLink>
+							<NavLink to="/seguridad-datos-red/honeynets">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									HoneyNets
+								</button>
+							</NavLink>
 						</SectionCardBack>
 					</SectionCard>
 					<SectionCardAmber>
@@ -36,15 +40,21 @@ export const Contenido = () => {
 							<SectionTitle title="Internet de las Cosas" />
 						</div>
 						<SectionCardBack>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/iot/Intro">Introducción</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/iot/">Sección 1</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/iot/">Sección 2</NavLink>
-							</button>
+							<NavLink to="/iot/Intro">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Introducción
+								</button>
+							</NavLink>
+							<NavLink to="/iot/datos-relevantes">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Datos relevantes
+								</button>
+							</NavLink>
+							<NavLink to="/iot/aplicaciones-servicios">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Aplicaciones y servicios
+								</button>
+							</NavLink>
 						</SectionCardBack>
 					</SectionCardAmber>
 				</div>
@@ -55,15 +65,21 @@ export const Contenido = () => {
 							<SectionTitle title="Seguridad en la web" />
 						</div>
 						<SectionCardBack>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/seguridad-web/Intro">Introducción</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/seguridad-web/HTTPS">HTTPS</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/seguridad-web/SSL">SSL</NavLink>
-							</button>
+							<NavLink to="/seguridad-web/Intro">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Introducción
+								</button>
+							</NavLink>
+							<NavLink to="/seguridad-web/HTTPS">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									HTTPS
+								</button>
+							</NavLink>
+							<NavLink to="/seguridad-web/SSL">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									SSL
+								</button>
+							</NavLink>
 						</SectionCardBack>
 					</SectionCardAmber>
 					<SectionCard>
@@ -72,15 +88,21 @@ export const Contenido = () => {
 							<SectionTitle title="Programación de aplicaciones con sockets" />
 						</div>
 						<SectionCardBack>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/sockets/Intro">Introducción</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/sockets/">Sección 1</NavLink>
-							</button>
-							<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-								<NavLink to="/sockets/">Sección 2</NavLink>
-							</button>
+							<NavLink to="/sockets/Intro">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Introducción
+								</button>
+							</NavLink>
+							<NavLink to="/sockets/">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Sección 1
+								</button>
+							</NavLink>
+							<NavLink to="/sockets/">
+								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
+									Sección 2
+								</button>
+							</NavLink>
 						</SectionCardBack>
 					</SectionCard>
 				</div>

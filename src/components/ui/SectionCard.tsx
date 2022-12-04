@@ -26,9 +26,7 @@ export function SectionCardBack(props: any) {
 	return (
 		<section className="back flex bg-gradient-to-t from-indigo-400 via-violet-400 to-amber-100 items-center justify-center w-full h-full">
 			<div>
-				<h3 className="text-center text-gray-800 text-lg font-semibold">
-					Secciones
-				</h3>
+				<h3 className=" text-gray-800 text-lg font-semibold">Secciones</h3>
 				<div className="flex flex-col gap-4">{props.children}</div>
 			</div>
 		</section>

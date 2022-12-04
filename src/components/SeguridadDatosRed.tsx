@@ -14,9 +14,11 @@ export const SeguridadDatosWeb = () => {
 						path="https://th.bing.com/th/id/R.463c3a3340d4d5eac83877acc3e4143c?rik=mlHs7VrD%2f0jcRg&pid=ImgRaw&r=0"
 					/>
 					<ContentTitle title="Introducción" />
-					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/seguridad-datos-red/Intro">Leer</NavLink>
-					</button>
+					<NavLink to="/seguridad-datos-red/Intro">
+						<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+							Leer
+						</button>
+					</NavLink>
 				</ContentCard>
 				<ContentCard>
 					<ContentPhoto
@@ -24,9 +26,11 @@ export const SeguridadDatosWeb = () => {
 						path="https://th.bing.com/th/id/OIP.0_05fwtp6wOeNCBZURoRsgHaE8?pid=ImgDet&rs=1"
 					/>
 					<ContentTitle title="Redes Perimetrales" />
-					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/seguridad-datos-red/redes-perimetrales">Leer</NavLink>
-					</button>
+					<NavLink to="/seguridad-datos-red/redes-perimetrales">
+						<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+							Leer
+						</button>
+					</NavLink>
 				</ContentCard>
 				<ContentCard>
 					<ContentPhoto
@@ -35,9 +39,11 @@ export const SeguridadDatosWeb = () => {
 						path="https://gloify.com/wp-content/uploads/2020/06/SSL-.png"
 					/>
 					<ContentTitle title="HoneyNets" />
-					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/seguridad-datos-red/honeynets">Leer</NavLink>
-					</button>
+					<NavLink to="/seguridad-datos-red/honeynets">
+						<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+							Leer
+						</button>
+					</NavLink>
 				</ContentCard>
 			</div>
 		</section>
