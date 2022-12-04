@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import { Home, Sockets, SeguridadWeb, SeguridadDatosWeb } from "..";
 import { Navbar } from "../common";
 import IoT from "../IoT";
+import AplicacionesServicios from "../IoT/AplicacionesServicios";
+import DatosRelevantes from "../IoT/DatosRelevantes";
 import IntroIoT from "../IoT/IntroIoT";
 import Nosotros from "../Nosotros";
 import IntroRed from "../SeguridadDatosRed/IntroRed";
@@ -27,6 +29,11 @@ export const AppRouter = () => {
 					<Route path="/seguridad-web/ssl" element={<SSL />} />
 					<Route path="/iot/*" element={<IoT />} />
 					<Route path="/iot/Intro" element={<IntroIoT />} />
+					<Route path="/iot/datos-relevantes" element={<DatosRelevantes />} />
+					<Route
+						path="/iot/aplicaciones-servicios"
+						element={<AplicacionesServicios />}
+					/>
 					<Route
 						path="/seguridad-datos-red/*"
 						element={<SeguridadDatosWeb />}

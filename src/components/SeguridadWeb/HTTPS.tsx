@@ -45,7 +45,7 @@ export default function HTTPS() {
 					</ArticleContent>
 				</div>
 				<iframe
-					style={{ margin: "auto" }}
+					style={{ margin: "auto", borderRadius: 4 }}
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/U0iiT41OI3I"
