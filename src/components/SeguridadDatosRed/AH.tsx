@@ -4,7 +4,7 @@ export default function AH() {
 			<h3 className="font-semibold w-max pb-2 text-center text-lg text-gray-800">
 				Cabecera de Autenticación (AH)
 			</h3>
-			<p className="text-justify text-sm">
+			<p className="leading-loose text-justify text-sm">
 				Está dirigido a garantizar integridad sin conexión y autenticación de
 				los datos de origen de los datagramas IP. Calcula un Hash Message
 				Authentication Code (HMAG) mediante algún algoritmo hash operando sobre
@@ -16,7 +16,7 @@ export default function AH() {
 			<article className="flex gap-8 mt-4">
 				<section>
 					<h4 className="font-semibold text-gray-800">AH Modo Transporte</h4>
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						La manera más fácil de entender el modo transporte es que protege el
 						intercambio de información entre dos usuarios finales. La protección
 						puede ser autentificación o encriptación (o las dos), pero no se
@@ -32,7 +32,7 @@ export default function AH() {
 				</section>
 				<section>
 					<h4 className="font-semibold text-gray-800">AH Modo Túnel</h4>
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						El modo túnel es el más común para dar una funcionalidad de VPN,
 						donde un paquete IP es encapsulado dentro de otro y enviado a su
 						destino.

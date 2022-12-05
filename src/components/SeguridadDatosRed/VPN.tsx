@@ -12,7 +12,7 @@ export default function VPN() {
 				float="right"
 				path="https://media.pasionmovil.com/2020/11/vpn-seguridad-2048x988.jpg"
 			/>
-			<p className="text-justify text-sm">
+			<p className="leading-loose text-justify text-sm">
 				La Red Privada Virtual (VPN por sus siglas en inglés) nos permite
 				extender la red local sobre una red pública; es una red de comunicación
 				virtual que se gestiona tomando como base una red física. El internet es
@@ -38,7 +38,7 @@ export default function VPN() {
 			<article className="px-8 flex gap-8 mt-4">
 				<section>
 					<h4 className="font-semibold text-gray-800">VPN Site to Site</h4>
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						se aplica cuando se necesita integrar varias redes locales en una
 						red de comunicaciones virtual a través de un canal de transporte
 						público. Es decir, cuando se quiere establecer conexiones entre
@@ -55,7 +55,7 @@ export default function VPN() {
 				</section>
 				<section>
 					<h4 className="font-semibold text-gray-800">VPN End to Site</h4>
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						Las VPN End to Site o de acceso remoto, se utilizan cuando las
 						empresas tienen la necesidad de crear un acceso para los usuarios
 						que no trabajan en sitio; es decir, aquellos que trabajan desde casa
@@ -70,7 +70,7 @@ export default function VPN() {
 				</section>
 				<section>
 					<h4 className="font-semibold text-gray-800">VPN End to End</h4>
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						La VPN End to End se caracteriza por hacer las conexiones mediante
 						el escritorio remoto. Esta es una técnica por la que los programas
 						de aplicación se llevan a cabo en un ordenador y estos se

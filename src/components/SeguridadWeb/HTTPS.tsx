@@ -40,7 +40,7 @@ export default function HTTPS() {
 				<div className="w-6/12" ref={protocoloRef}>
 					<ArticleSubtitle title="&#x1F4A1; ¿Qué es el protocolo HTTPS?" />
 					<ArticleContent>
-						<p className="py-2 text-justify text-sm">
+						<p className="leading-loose py-2 text-justify text-sm">
 							El protocolo seguro de transferencia de hipertexto (HTTPS) es la
 							versión segura de HTTP, que es el protocolo principal utilizado
 							para enviar datos entre un navegador web y un sitio web. HTTPS
@@ -68,7 +68,7 @@ export default function HTTPS() {
 				<ArticleSubtitle title="&#x1F937; ¿Cómo funciona HTTPS?" />
 			</div>
 			<ArticleContent>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					HTTPS utiliza un protocolo de cifrado para cifrar las comunicaciones.
 					El protocolo se llama Transport Layer Security (TLS), aunque
 					antiguamente se conocía como Secure Sockets Layer (SSL). Este
@@ -89,7 +89,7 @@ export default function HTTPS() {
 				<div ref={httpsvshttpRef}>
 					<ArticleSubtitle title="&#x1F914;HTTPS vs HTTP" />
 					<ArticleContent>
-						<p className="py-2 text-justify text-sm">
+						<p className="leading-loose py-2 text-justify text-sm">
 							Técnicamente hablando, HTTPS no es un protocolo separado de HTTP.
 							Simplemente está utilizando el cifrado TLS / SSL sobre el
 							protocolo HTTP. HTTPS se produce en función de la transmisión de

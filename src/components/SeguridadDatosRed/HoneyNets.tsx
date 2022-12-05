@@ -27,7 +27,7 @@ export default function HoneyNets() {
 				<div ref={introRef}>
 					<ArticleSubtitle title="¿Qué son?" />
 				</div>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Ayudan a mejorar la seguridad de las redes y sistemas; simula ser una
 					red legítima para poder atraer a los hackers y analizar cómo
 					interactúan con el sistema tratando de comprender su comportamiento en
@@ -48,7 +48,7 @@ export default function HoneyNets() {
 				<div ref={funcionRef}>
 					<ArticleSubtitle title="¿Cómo funcionan?" />
 				</div>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Implementar las HoneyNets con la finalidad de identificar a los
 					hackers no es un trabajo fácil, por lo que se ayuda de varios
 					componentes que trabajan en conjunto para poder brindar dicho
@@ -80,7 +80,7 @@ export default function HoneyNets() {
 						exacta sobre el tráfico que se tiene dentro y fuera del honeypot.
 					</li>
 				</ul>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Al atraer al hacker, éste entra dentro de una honeypot para que, al
 					estar ahí, trate de adentrarse más al sistema y ahí es cuando gana
 					acceso a la honeynet, donde empieza el registro de sus movimientos

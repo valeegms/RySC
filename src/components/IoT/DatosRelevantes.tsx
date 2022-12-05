@@ -16,7 +16,7 @@ export default function DatosRelevantes() {
 			<Badge title="IoT" />
 			<ArticleTitle title="Datos relevantes en la historia del IoT" />
 			<ArticleContent>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Algunos aspectos destacados en la historia de la IoT son los
 					siguientes:
 				</p>
@@ -25,7 +25,7 @@ export default function DatosRelevantes() {
 						<section className="bg-violet-100 flex gap-2 px-8 py-4 rounded-md mt-2">
 							<span>&#x1F4A1;</span>
 							<section className="flex gap-8 items-center">
-								<p className="text-justify text-sm">
+								<p className="leading-loose text-justify text-sm">
 									El término “Internet de las Cosas” fue utilizado por primera
 									vez por Kevin Ashton en 1999 que estaba trabajando en el campo
 									de la tecnología RFID en red (identificación por
@@ -38,20 +38,20 @@ export default function DatosRelevantes() {
 									src="https://th.bing.com/th/id/OIP.10e0S1J4RYNd1MbZ8ZW5nQHaLH?pid=ImgDet&rs=1"
 									alt=""
 								/>
-								<p className="py-2 text-justify text-sm"></p>
+								<p className="leading-loose py-2 text-justify text-sm"></p>
 							</section>
 						</section>
 						<section className="bg-violet-100 flex gap-2 px-8 py-4 rounded-md mt-2">
 							<span>&#x1F4A1;</span>
 							<section className="flex gap-8">
-								<p className="text-justify text-sm">
+								<p className="leading-loose text-justify text-sm">
 									En 2010, el número de objetos físicos cotidianos y
 									dispositivos conectados a Internet fue de alrededor de 12,5
 									mil millones. En la actualidad hay cerca de 25 mil millones de
 									dispositivos conectados a la IoT. Más o menos un dispositivo
 									inteligente por persona.
 								</p>
-								<p className="py-2 text-justify text-sm"></p>
+								<p className="leading-loose py-2 text-justify text-sm"></p>
 							</section>
 						</section>
 					</article>

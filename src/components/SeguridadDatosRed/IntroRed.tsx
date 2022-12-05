@@ -34,7 +34,7 @@ export default function IntroRed() {
 				<div ref={introRef}>
 					<ArticleSubtitle title="Introducción" />
 				</div>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Hoy en día vivimos en un mundo digitalizado donde la transmisión de
 					datos mediante la red tiende a ser algo frecuente entre personas y
 					organizaciones que manejan información delicada de índole
@@ -68,7 +68,7 @@ export default function IntroRed() {
 					width={350}
 					path="https://commons.bmstu.wiki/images/b/bb/IPSec.jpg"
 				/>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					El IPSec (Internet Protocol Security) es un conjunto de protocolos que
 					se encargan de asegurar las comunicaciones sobre el Protocolo de
 					Internet (IP) autenticando y/o cifrando cada paquete IP en un flujo de

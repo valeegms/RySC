@@ -18,7 +18,7 @@ export const IntroWeb = () => {
 			<Badge title="Seguridad en la Web" />
 			<ArticleTitle title="Seguridad en la Web" />
 			<ArticleContent>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					La seguridad web consiste en cada acción o herramienta adoptada para
 					evitar que las información o datos sean expuestos o propensos a
 					ataques por parte de cibercriminales. Esas medidas también sirven para
@@ -29,7 +29,7 @@ export const IntroWeb = () => {
 				</p>
 				<div className="bg-gray-100 px-8 py-4 rounded-md">
 					<ArticleSubtitle title="Malware" />
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						Se trata de un software malicioso que utiliza la distribución del
 						spam, para hacer que los cibercriminales accedan a los sitios web
 						con el fin de que estos roben datos confidenciales de la empresa o
@@ -38,7 +38,7 @@ export const IntroWeb = () => {
 				</div>
 				<div className="bg-gray-200 mt-4 px-8 py-4 rounded-md">
 					<ArticleSubtitle title="Explotaciones de Vulnerabilidad" />
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						En este caso, los ciberdelincuentes lo que hacen es una búsqueda de
 						las vulnerabilidades y debilidades de los sitios webs y, usan esta
 						información para conseguir acceder a ella de forma rápida. La manera
@@ -55,7 +55,7 @@ export const IntroWeb = () => {
 					/>
 					<article className="bg-gray-100 px-8 py-4 rounded-tr-md rounded-br-md">
 						<ArticleSubtitle title="Ataques DDoS" />
-						<p className="text-justify text-sm">
+						<p className="leading-loose text-justify text-sm">
 							Los ataques DDoS pueden bloquear el sitio web en su totalidad o
 							hacer que funcione de manera muy lenta, consiguiendo así que el
 							acceso para los usuarios sea inviable para meterse.
@@ -64,7 +64,7 @@ export const IntroWeb = () => {
 				</div>
 				<div className="bg-gray-200 mt-4 px-8 py-4 rounded-md">
 					<ArticleSubtitle title="Desfiguración Web" />
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						Este tipo de ataque causado por los hackers hace que las páginas
 						reemplacen contenido por otro malicioso que es enviado por el
 						hacker.
@@ -72,7 +72,7 @@ export const IntroWeb = () => {
 				</div>
 				<div className="bg-gray-100 mt-4 px-8 py-4 rounded-md">
 					<ArticleSubtitle title="Blacklist" />
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						Lo que causa este ciberataque, es que un sitio puede eliminarse de
 						los resultados de búsqueda como Google, Yahoo, etc. si hay algún
 						malware activo. Si una web cuenta con este tipo de ataque, se

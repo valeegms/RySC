@@ -4,7 +4,7 @@ export default function ESP() {
 			<h3 className="font-semibold text-lg text-gray-800">
 				Cabecera de Seguridad Encapsulada (ESP)
 			</h3>
-			<p className="text-justify text-sm">
+			<p className="leading-loose text-justify text-sm">
 				A diferencia de AH, que da una pequeña cabecera antes de la carga útil,
 				ESP rodea la carga útil con su protección. Los parámetros de seguridad
 				Index y Sequence Number tienen el mismo propósito que en AH, pero nos
@@ -25,7 +25,7 @@ export default function ESP() {
 			<article className="flex gap-8 mt-4">
 				<section>
 					<h4 className="font-semibold text-gray-800">ESP Modo Transporte</h4>
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						Al igual que en AH, el modo transporte encapsula justamente la carga
 						la carga útil del datagrama y está diseñado justamente para
 						comunicaciones extremo-a-extremo. La cabecera IP original se deja
@@ -36,7 +36,7 @@ export default function ESP() {
 				</section>
 				<section>
 					<h4 className="font-semibold text-gray-800">ESP Modo Túnel</h4>
-					<p className="text-justify text-sm">
+					<p className="leading-loose text-justify text-sm">
 						El ESP en modo Túnel encapsula el datagrama IP entero y lo encripta;
 						proveer una conexión encriptada en modo túnel es dar una forma muy
 						cercana a como se crea una VPN, y es lo que se nos viene a la cabeza

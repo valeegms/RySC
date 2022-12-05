@@ -18,7 +18,7 @@ export default function IntroIoT() {
 			<Badge title="IoT" />
 			<ArticleTitle title="Internet de las Cosas" />
 			<ArticleContent>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					La Internet de las Cosas también denominado con sus siglas en inglés
 					IoT (Internet of Things) introduce un cambio radical en la calidad de
 					vida de las personas, ofreciendo una gran cantidad de nuevas
@@ -37,7 +37,7 @@ export default function IntroIoT() {
 				</p>
 				<section className="bg-violet-100 px-8 py-4 rounded-md mt-4">
 					<ArticleSubtitle title="&#x1F4A1; ¿Qué es IoT?" />
-					<p className="py-2 text-justify text-sm">
+					<p className="leading-loose py-2 text-justify text-sm">
 						El término Internet de las Cosas está en desarrollo y por ende aún
 						no tiene una definición aceptada universalmente, sin embargo, se
 						podría definir como la interconexión digital de objetos cotidianos

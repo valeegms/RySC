@@ -17,7 +17,7 @@ export default function AplicacionesServicios() {
 			<Badge title="IoT" />
 			<ArticleTitle title="Aplicaciones y Servicios" />
 			<ArticleContent>
-				<p className="py-2 text-justify text-sm">
+				<p className="py-2 leading-loose text-justify text-sm">
 					A continuación, se presenta una breve lista de aplicaciones y
 					servicios basados en la IoT. El objetivo de esta sección es comprender
 					todas las posibles aplicaciones y servicios que la IoT podría
@@ -26,7 +26,7 @@ export default function AplicacionesServicios() {
 				<section className="bg-violet-100 flex gap-8 items-center justify-between px-8 py-4 rounded-md mt-2">
 					<section className="">
 						<ArticleSubtitle title="&#x1F468;&#x200D;&#x1F469;&#x200D;&#x1F467;&#x200D;&#x1F466; Seguridad para todos los miembros de mi familia" />
-						<p className="text-justify text-sm mt-2">
+						<p className="leading-loose text-justify text-sm mt-2">
 							El término “Internet de las Cosas” fue utilizado por primera vez
 							por Kevin Ashton en 1999 que estaba trabajando en el campo de la
 							tecnología RFID en red (identificación por radiofrecuencia) y
@@ -60,7 +60,7 @@ export default function AplicacionesServicios() {
 								y alarmas.
 							</li>
 						</ul>
-						<p className="py-2 text-justify text-sm"></p>
+						<p className="leading-loose py-2 text-justify text-sm"></p>
 					</section>
 					<img
 						style={{ borderRadius: 4, height: 180 }}
@@ -94,7 +94,7 @@ export default function AplicacionesServicios() {
 								jardines.
 							</li>
 						</ul>
-						<p className="py-2 text-justify text-sm"></p>
+						<p className="leading-loose py-2 text-justify text-sm"></p>
 					</section>
 					<img
 						style={{ borderRadius: 4, height: 180 }}
@@ -121,7 +121,7 @@ export default function AplicacionesServicios() {
 								extranjeros.
 							</li>
 						</ul>
-						<p className="py-2 text-justify text-sm"></p>
+						<p className="leading-loose py-2 text-justify text-sm"></p>
 					</section>
 					<img
 						style={{ borderRadius: 4, height: 180 }}
@@ -151,7 +151,7 @@ export default function AplicacionesServicios() {
 								lavadoras y secadoras inteligentes.
 							</li>
 						</ul>
-						<p className="py-2 text-justify text-sm"></p>
+						<p className="leading-loose py-2 text-justify text-sm"></p>
 					</section>
 					<img
 						style={{ borderRadius: 4, height: 180 }}
@@ -185,7 +185,7 @@ export default function AplicacionesServicios() {
 								hábitos alimenticios.
 							</li>
 						</ul>
-						<p className="py-2 text-justify text-sm"></p>
+						<p className="leading-loose py-2 text-justify text-sm"></p>
 					</section>
 					<img
 						style={{ borderRadius: 4, height: 180 }}
@@ -208,7 +208,7 @@ export default function AplicacionesServicios() {
 								climáticos basados en el monitoreo de sensores inteligentes.
 							</li>
 						</ul>
-						<p className="py-2 text-justify text-sm"></p>
+						<p className="leading-loose py-2 text-justify text-sm"></p>
 					</section>
 					<img
 						style={{ borderRadius: 4, height: 180 }}
@@ -235,7 +235,7 @@ export default function AplicacionesServicios() {
 								sobreproducción.
 							</li>
 						</ul>
-						<p className="py-2 text-justify text-sm"></p>
+						<p className="leading-loose py-2 text-justify text-sm"></p>
 					</section>
 					<img
 						style={{ borderRadius: 4, height: 180 }}

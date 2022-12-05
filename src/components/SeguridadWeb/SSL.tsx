@@ -34,7 +34,7 @@ export default function SSL() {
 					<div ref={historiaRef}>
 						<ArticleSubtitle title="&#x1F4D6; Breve historia de SSL" />
 					</div>
-					<p className="py-2 text-justify text-sm">
+					<p className="leading-loose py-2 text-justify text-sm">
 						Cuando la web irrumpió a la vista pública, en un principio sólo se
 						utilizaba para distribuir páginas estáticas. Sin embargo, pronto
 						algunas compañías tuvieron la idea de utilizarla para transacciones
@@ -65,7 +65,7 @@ export default function SSL() {
 					<div ref={definicionRef}>
 						<ArticleSubtitle title="&#x1F4A1; ¿Qué es SSL?" />
 					</div>
-					<p className="py-2 text-justify text-sm">
+					<p className="leading-loose py-2 text-justify text-sm">
 						SSL construye una conexión segura entre dos sockets, incluyendo:
 						<ul className="px-8 ">
 							<li className="pb-1 pt-3">
@@ -110,7 +110,7 @@ export default function SSL() {
 				<ArticleSubtitle title="&#x1F937; ¿Cómo funciona SSL?" />
 			</div>
 			<ArticleContent>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					SSL está formado de dos subprotocolos, uno para establecer una
 					conexión segura y otro para utilizarla. Para empezar, vamos a ver cómo
 					se establecen las conexiones seguras. En la{" "}
@@ -156,7 +156,7 @@ export default function SSL() {
 						</span>
 					</div>
 				</section>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Sin embargo, aunque Alice sabe quién es Bob, éste no sabe quién es
 					Alice (a menos que ella tenga una clave pública y el correspondiente
 					certificado para ella, una situación poco probable para un individuo).

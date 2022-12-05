@@ -16,7 +16,7 @@ export default function IntroSockets() {
 					width={350}
 					path="./assets/img/placeholder.JPG"
 				/>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
 					turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
 					fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus

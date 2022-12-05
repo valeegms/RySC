@@ -42,7 +42,7 @@ export default function Perimetrales() {
 				<div ref={introRef}>
 					<ArticleSubtitle title="Seguridad perimetral" />
 				</div>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					La seguridad perimetral es el conjunto de mecanismos y sistemas
 					relativos al control del acceso no autorizado de personas a la red.
 					Tienen como objetivo soportar ataques externos, detectar e identificar
@@ -53,7 +53,7 @@ export default function Perimetrales() {
 				<div ref={firewallsRef}>
 					<ArticleSubtitle title="Firewalls" />
 				</div>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					El firewall, o cortafuegos, es un conjunto de sistemas que se encargan
 					de controlar las comunicaciones entre dos o más redes; se encarga de
 					analizar paquete a paquete todo el tráfico que entra o sale de nuestra
@@ -63,7 +63,7 @@ export default function Perimetrales() {
 				<div ref={idsRef}>
 					<ArticleSubtitle title="Sistemas de Detección de Intrusión (IDS)" />
 				</div>
-				<p className="py-2 text-justify text-sm">
+				<p className="leading-loose py-2 text-justify text-sm">
 					Los IDS aparecieron como respuesta al creciente número de ataques a
 					principales lugares de interés y redes. Son una especia de sistema de
 					gestión de seguridad para los ordenadores y redes. Un IDS recopila y
@@ -81,14 +81,14 @@ export default function Perimetrales() {
 							Detección de mal uso y anomalías
 						</h4>
 						<div className="text-justify text-sm">
-							<p className="py-2 text-justify text-sm">
+							<p className="leading-loose py-2 text-justify text-sm">
 								<span className="italic">Detección de mal uso</span>. El IDS
 								analiza la información que recopila y la compara con grandes
 								bases de datos de firmas de ataques. Consiste en la búsqueda de
 								"firmas" (secuencias de acciones típicas de un ataque) en todas
 								las comunicaciones que pasan por la red.
 							</p>
-							<p className="py-2 text-justify text-sm">
+							<p className="leading-loose py-2 text-justify text-sm">
 								<span className="italic">Detección de anomalías</span>. El
 								administrador del sistema define el estado normal de tráfico de
 								la red, protocolos y tamaños típicos de los intercambios. El
@@ -104,14 +104,14 @@ export default function Perimetrales() {
 							Basados en red o en equipos
 						</h4>
 						<div className="text-justify text-sm">
-							<p className="py-2 text-justify text-sm">
+							<p className="leading-loose py-2 text-justify text-sm">
 								<span className="italic">Basados en red (NIDS)</span>. El IDS
 								analiza la información que recopila y la compara con grandes
 								bases de datos de firmas de ataques. Consiste en la búsqueda de
 								"firmas" (secuencias de acciones típicas de un ataque) en todas
 								las comunicaciones que pasan por la red.
 							</p>
-							<p className="py-2 text-justify text-sm">
+							<p className="leading-loose py-2 text-justify text-sm">
 								<span className="italic">Basados en equipos (HIDS)</span>. El
 								IDS analiza toda la actividad en cada equipo individual.
 							</p>
@@ -122,12 +122,12 @@ export default function Perimetrales() {
 							Sistemas pasivos o reactivos
 						</h4>
 						<div className="text-justify text-sm">
-							<p className="py-2 text-justify text-sm">
+							<p className="leading-loose py-2 text-justify text-sm">
 								<span className="italic">Sistema pasivo</span>. El IDS detecta
 								un posible fallo de seguridad, registra la información y envía
 								las señales de alerta.
 							</p>
-							<p className="py-2 text-justify text-sm">
+							<p className="leading-loose py-2 text-justify text-sm">
 								<span className="italic">Sistema reactivo</span>. El IDS
 								responde a una actividad sospechosa cerrando la sesión de un
 								usuario o reprogramando el firewall para bloquear el tráfico de
