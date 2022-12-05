@@ -1,4 +1,5 @@
-import { Badge } from "../ui";
+import { NavLink } from "react-router-dom";
+import { Badge, NavigateNext } from "../ui";
 import Article, {
 	ArticleTitle,
 	ArticleImage,
@@ -9,6 +10,11 @@ import Article, {
 export const IntroWeb = () => {
 	return (
 		<Article>
+			<div className="float-right">
+				<NavLink to={"/seguridad-web/https"}>
+					<NavigateNext text="HTTPS" />
+				</NavLink>
+			</div>
 			<Badge title="Seguridad en la Web" />
 			<ArticleTitle title="Seguridad en la Web" />
 			<ArticleContent>

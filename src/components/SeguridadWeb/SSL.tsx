@@ -1,5 +1,6 @@
 import { useRef } from "react";
-import { Badge, ContentLink } from "../ui";
+import { NavLink } from "react-router-dom";
+import { Badge, ContentLink, NavigatePrevious } from "../ui";
 import Article, {
 	ArticleTitle,
 	ArticleContent,
@@ -13,6 +14,11 @@ export default function SSL() {
 	const funcionRef = useRef<HTMLDivElement | null>(null);
 	return (
 		<Article>
+			<div className="w-fit">
+				<NavLink to={"/seguridad-web/https"}>
+					<NavigatePrevious text="HTTPS" />
+				</NavLink>
+			</div>
 			<Badge title="Seguridad en la Web" />
 			<ArticleTitle title="SSL (Security Socket Layer)" />
 			<IndexCard>
