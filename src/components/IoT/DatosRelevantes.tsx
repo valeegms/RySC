@@ -1,9 +1,18 @@
-import { Badge } from "../ui";
+import { NavLink } from "react-router-dom";
+import { Badge, NavigateNext, NavigatePrevious } from "../ui";
 import Article, { ArticleContent, ArticleTitle } from "../ui/Article/Article";
 
 export default function DatosRelevantes() {
 	return (
 		<Article>
+			<div className="flex w-full justify-between">
+				<NavLink to={"/iot/Intro"}>
+					<NavigatePrevious text="Introducción" />
+				</NavLink>
+				<NavLink to={"/iot/aplicaciones-servicios"}>
+					<NavigateNext text="Aplicaciones y Servicios" />
+				</NavLink>
+			</div>
 			<Badge title="IoT" />
 			<ArticleTitle title="Datos relevantes en la historia del IoT" />
 			<ArticleContent>

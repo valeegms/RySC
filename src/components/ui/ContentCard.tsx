@@ -11,7 +11,15 @@ export const ContentPhoto: React.FC<{
 	height?: number;
 	path: string;
 }> = ({ width, height, path }) => {
-	return <img width={width} height={height} src={path} alt="" />;
+	return (
+		<img
+			className="rounded-md object-cover h-44"
+			width={width}
+			height={height}
+			src={path}
+			alt=""
+		/>
+	);
 };
 
 export const ContentTitle: React.FC<{

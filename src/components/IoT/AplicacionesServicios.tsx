@@ -1,4 +1,5 @@
-import { Badge } from "../ui";
+import { NavLink } from "react-router-dom";
+import { Badge, NavigatePrevious } from "../ui";
 import Article, {
 	ArticleTitle,
 	ArticleContent,
@@ -8,6 +9,11 @@ import Article, {
 export default function AplicacionesServicios() {
 	return (
 		<Article>
+			<div className="w-fit">
+				<NavLink to={"/iot/datos-relevantes"}>
+					<NavigatePrevious text="Datos Relevantes" />
+				</NavLink>
+			</div>
 			<Badge title="IoT" />
 			<ArticleTitle title="Aplicaciones y Servicios" />
 			<ArticleContent>

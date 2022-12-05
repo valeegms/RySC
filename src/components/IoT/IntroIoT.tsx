@@ -1,4 +1,5 @@
-import { Badge } from "../ui";
+import { NavLink } from "react-router-dom";
+import { Badge, NavigateNext } from "../ui";
 import Article, {
 	ArticleContent,
 	ArticleImage,
@@ -9,6 +10,11 @@ import Article, {
 export default function IntroIoT() {
 	return (
 		<Article>
+			<div className="float-right">
+				<NavLink to={"/iot/datos-relevantes"}>
+					<NavigateNext text="Datos relevantes" />
+				</NavLink>
+			</div>
 			<Badge title="IoT" />
 			<ArticleTitle title="Internet de las Cosas" />
 			<ArticleContent>
