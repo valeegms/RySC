@@ -70,11 +70,11 @@ export default function SocketsTCPJava() {
 				mismo servidor reciba e imprima el mensaje. De esta forma, la clase
 				cliente quedaría de la siguiente manera:
 			</p>
-			<ArticleImage path="./assets/img/imagen4.png" />
+			<ArticleImage path="./assets/img/Imagen4.png" />
 			<p className="leading-loose py-2 text-justify text-sm">
 				Mientras que la clase servidor quedaría de la siguiente forma:
 			</p>
-			<ArticleImage path="./assets/img/imagen5.png" />
+			<ArticleImage path="./assets/img/Imagen5.png" />
 			<p className="leading-loose py-2 text-justify text-sm">
 				¡Y listo! El cliente envía el mensaje al servidor localhost que escucha
 				en el puerto 8000, y éste lo recibe y lo muestra en consola. Al final

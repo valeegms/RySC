@@ -168,7 +168,7 @@ export default function SocketsUDPJava() {
 				Y la clase servidor <code className="font-medium">UDPRecibe.java</code>{" "}
 				quedaría:
 			</p>
-			<ArticleImage path="./assets/img/imagen5.png" />
+			<ArticleImage path="./assets/img/Imagen5.png" />
 			<p className="leading-loose py-2 text-justify text-sm">
 				De esta forma estaríamos implementando los sockets para transmisión no
 				confiable de paquetes siguiendo el protocolo UDP en Java.

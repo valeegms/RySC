@@ -24,7 +24,7 @@ export const Sockets = () => {
 					</NavLink>
 				</ContentCard>
 				<ContentCard>
-					<ContentPhoto width={250} path="./assets/img/imagen5.png" />
+					<ContentPhoto width={250} path="./assets/img/Imagen5.png" />
 					<ContentTitle title="Sockets TCP en Java" />
 					<NavLink to="/sockets/sockets-tcp-java">
 						<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
