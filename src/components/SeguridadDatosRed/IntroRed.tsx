@@ -32,7 +32,7 @@ export default function IntroRed() {
 			</IndexCard>
 			<ArticleContent>
 				<div ref={introRef}>
-					<ArticleSubtitle title="Introducción" />
+					<ArticleSubtitle title="&#x1F4D6; Introducción" />
 				</div>
 				<p className="leading-loose py-2 text-justify text-sm">
 					Hoy en día vivimos en un mundo digitalizado donde la transmisión de
@@ -61,7 +61,7 @@ export default function IntroRed() {
 					la IPSec y el VPN.
 				</p>
 				<div ref={ipsecRef}>
-					<ArticleSubtitle title="IPSec" />
+					<ArticleSubtitle title="&#x1F9D0; IPSec" />
 				</div>
 				<ArticleImage
 					float="right"

@@ -40,7 +40,7 @@ export default function Perimetrales() {
 					path="https://blog.sarenet.es/wp-content/uploads/2018/08/ddos.jpg"
 				/>
 				<div ref={introRef}>
-					<ArticleSubtitle title="Seguridad perimetral" />
+					<ArticleSubtitle title="&#x1F64B; Seguridad perimetral" />
 				</div>
 				<p className="leading-loose py-2 text-justify text-sm">
 					La seguridad perimetral es el conjunto de mecanismos y sistemas
@@ -51,7 +51,7 @@ export default function Perimetrales() {
 					bloquear el tráfico ilegítimo.
 				</p>
 				<div ref={firewallsRef}>
-					<ArticleSubtitle title="Firewalls" />
+					<ArticleSubtitle title="&#x1F9F1; Firewalls" />
 				</div>
 				<p className="leading-loose py-2 text-justify text-sm">
 					El firewall, o cortafuegos, es un conjunto de sistemas que se encargan
@@ -61,7 +61,7 @@ export default function Perimetrales() {
 					acceso.
 				</p>
 				<div ref={idsRef}>
-					<ArticleSubtitle title="Sistemas de Detección de Intrusión (IDS)" />
+					<ArticleSubtitle title="&#x1F575; Sistemas de Detección de Intrusión (IDS)" />
 				</div>
 				<p className="leading-loose py-2 text-justify text-sm">
 					Los IDS aparecieron como respuesta al creciente número de ataques a

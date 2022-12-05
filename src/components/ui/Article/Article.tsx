@@ -23,9 +23,6 @@ export const ArticleBanner: React.FC<{ path: string; title: string }> = ({
 			<h1 className="bg-gray-800/50 p-6 w-fit m-auto rounded-md shadow-md absolute top-1/3 left-0 right-0 text-3xl font-bold text-violet-100">
 				{title}
 			</h1>
-			{/* <h1 className="w-fit m-auto absolute top-2/4 left-0 right-0 text-4xl font-bold text-white">
-				{title}
-			</h1> */}
 		</div>
 	);
 };
@@ -34,13 +31,16 @@ export const ArticleImage: React.FC<{
 	width?: number;
 	height?: number;
 	path: string;
+	classname?: string;
 	float?: "left" | "right";
-}> = ({ width, height, path, float }) => {
+}> = ({ width, height, path, float, classname }) => {
 	return (
 		<img
 			width={width}
 			height={height}
-			className={`float-${float ? float + " mx-2" : "none m-auto"}`}
+			className={`float-${
+				float ? float + " mx-2" : "none m-auto"
+			} rounded-md ${classname} object-cover`}
 			src={path}
 			alt=""
 		/>

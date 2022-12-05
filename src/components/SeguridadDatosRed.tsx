@@ -14,7 +14,7 @@ export const SeguridadDatosWeb = () => {
 				<ContentCard>
 					<ContentPhoto
 						width={250}
-						path="https://th.bing.com/th/id/R.463c3a3340d4d5eac83877acc3e4143c?rik=mlHs7VrD%2f0jcRg&pid=ImgRaw&r=0"
+						path="https://th.bing.com/th/id/OIP.mnoj4yP-m5SaCn2VLaP5twHaD4?pid=ImgDet&rs=1"
 					/>
 					<ContentTitle title="Introducción" />
 					<NavLink to="/seguridad-datos-red/Intro">
@@ -26,7 +26,7 @@ export const SeguridadDatosWeb = () => {
 				<ContentCard>
 					<ContentPhoto
 						width={250}
-						path="https://th.bing.com/th/id/OIP.0_05fwtp6wOeNCBZURoRsgHaE8?pid=ImgDet&rs=1"
+						path="https://th.bing.com/th/id/R.44ac55dceb490c9362cfcfec697f372a?rik=oOwF1Eg9yoWteA&pid=ImgRaw&r=0"
 					/>
 					<ContentTitle title="Redes Perimetrales" />
 					<NavLink to="/seguridad-datos-red/redes-perimetrales">
@@ -39,7 +39,7 @@ export const SeguridadDatosWeb = () => {
 					<ContentPhoto
 						width={250}
 						height={250}
-						path="https://gloify.com/wp-content/uploads/2020/06/SSL-.png"
+						path="https://linuxsecurity.com/images/articles/features/HoneynetsThumbnail.png"
 					/>
 					<ContentTitle title="HoneyNets" />
 					<NavLink to="/seguridad-datos-red/honeynets">

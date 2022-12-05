@@ -13,6 +13,8 @@ import HTTPS from "../SeguridadWeb/HTTPS";
 import { IntroWeb } from "../SeguridadWeb/IntroWeb";
 import SSL from "../SeguridadWeb/SSL";
 import IntroSockets from "../Sockets/IntroSockets";
+import SocketsTCPJava from "../Sockets/SocketsTCPJava";
+import SocketsUDPJava from "../Sockets/SocketsUDPJava";
 
 export const AppRouter = () => {
 	return (
@@ -25,6 +27,14 @@ export const AppRouter = () => {
 					<Route path="/" element={<Home />} />
 					<Route path="/sockets/*" element={<Sockets />} />
 					<Route path="/sockets/Intro" element={<IntroSockets />} />
+					<Route
+						path="/sockets/sockets-tcp-java"
+						element={<SocketsTCPJava />}
+					/>
+					<Route
+						path="/sockets/sockets-udp-java"
+						element={<SocketsUDPJava />}
+					/>
 					<Route path="/seguridad-web/*" element={<SeguridadWeb />} />
 					<Route path="/seguridad-web/Intro" element={<IntroWeb />} />
 					<Route path="/seguridad-web/https" element={<HTTPS />} />

@@ -1,11 +1,9 @@
-import { ArticleImage } from "../ui/Article/Article";
+import { ArticleImage, ArticleSubtitle } from "../ui/Article/Article";
 
 export default function VPN() {
 	return (
 		<section className="rounded-md mt-2 bg- violet-100">
-			<h3 className="font-semibold w-max pb-2 text-center text-lg text-gray-800">
-				VPN
-			</h3>
+			<ArticleSubtitle title="&#x1F469;&#x200D;&#x1F4BB; VPN" />
 			<ArticleImage
 				width={350}
 				height={250}

@@ -36,7 +36,17 @@ export default function HTTPS() {
 				/>
 				<ContentLink linkTitle={"HTTPS vs HTTP"} refSetter={httpsvshttpRef} />
 			</IndexCard>
-			<div className="flex gap-8">
+			<div className="flex flex-row-reverse gap-8">
+				<iframe
+					style={{ margin: "auto", borderRadius: 4 }}
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/U0iiT41OI3I"
+					title="YouTube video player"
+					frameBorder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowFullScreen
+				></iframe>
 				<div className="w-6/12" ref={protocoloRef}>
 					<ArticleSubtitle title="&#x1F4A1; ¿Qué es el protocolo HTTPS?" />
 					<ArticleContent>
@@ -53,16 +63,6 @@ export default function HTTPS() {
 						</p>
 					</ArticleContent>
 				</div>
-				<iframe
-					style={{ margin: "auto", borderRadius: 4 }}
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/U0iiT41OI3I"
-					title="YouTube video player"
-					frameBorder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowFullScreen
-				></iframe>
 			</div>
 			<div className="mt-8" ref={funcionRef}>
 				<ArticleSubtitle title="&#x1F937; ¿Cómo funciona HTTPS?" />
@@ -87,7 +87,7 @@ export default function HTTPS() {
 			</ArticleContent>
 			<div className="flex gap-8 mt-8 ">
 				<div ref={httpsvshttpRef}>
-					<ArticleSubtitle title="&#x1F914;HTTPS vs HTTP" />
+					<ArticleSubtitle title="&#x1F914; HTTPS vs HTTP" />
 					<ArticleContent>
 						<p className="leading-loose py-2 text-justify text-sm">
 							Técnicamente hablando, HTTPS no es un protocolo separado de HTTP.

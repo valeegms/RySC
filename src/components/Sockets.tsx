@@ -17,30 +17,33 @@ export const Sockets = () => {
 						path="https://th.bing.com/th/id/R.463c3a3340d4d5eac83877acc3e4143c?rik=mlHs7VrD%2f0jcRg&pid=ImgRaw&r=0"
 					/>
 					<ContentTitle title="Introducción" />
-					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/sockets/Intro">Leer</NavLink>
-					</button>
+					<NavLink to="/sockets/Intro">
+						<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+							Leer
+						</button>
+					</NavLink>
 				</ContentCard>
 				<ContentCard>
-					<ContentPhoto
-						width={250}
-						path="https://th.bing.com/th/id/OIP.0_05fwtp6wOeNCBZURoRsgHaE8?pid=ImgDet&rs=1"
-					/>
-					<ContentTitle title="Sección 1" />
-					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/sockets/HTTPS">Leer</NavLink>
-					</button>
+					<ContentPhoto width={250} path="./assets/img/imagen5.png" />
+					<ContentTitle title="Sockets TCP en Java" />
+					<NavLink to="/sockets/sockets-tcp-java">
+						<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+							Leer
+						</button>
+					</NavLink>
 				</ContentCard>
 				<ContentCard>
 					<ContentPhoto
 						width={250}
 						height={250}
-						path="https://gloify.com/wp-content/uploads/2020/06/SSL-.png"
+						path="./assets/img/Imagen7.png"
 					/>
-					<ContentTitle title="Sección 2" />
-					<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
-						<NavLink to="/sockets/SSL">Leer</NavLink>
-					</button>
+					<ContentTitle title="Sockets UDP en Java" />
+					<NavLink to="/sockets/sockets-udp-java">
+						<button className="xl:text-md text-sm bg-violet-700 mr-4 py-1 px-6 float-right rounded-[4px] text-white font-medium hover:bg-[#5B21B6] cursor-pointer">
+							Leer
+						</button>
+					</NavLink>
 				</ContentCard>
 			</div>
 		</section>

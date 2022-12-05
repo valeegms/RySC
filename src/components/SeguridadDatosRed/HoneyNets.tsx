@@ -25,7 +25,7 @@ export default function HoneyNets() {
 			</IndexCard>
 			<ArticleContent>
 				<div ref={introRef}>
-					<ArticleSubtitle title="¿Qué son?" />
+					<ArticleSubtitle title="&#x1F4A1; ¿Qué son?" />
 				</div>
 				<p className="leading-loose py-2 text-justify text-sm">
 					Ayudan a mejorar la seguridad de las redes y sistemas; simula ser una
@@ -46,7 +46,7 @@ export default function HoneyNets() {
 					path="https://th.bing.com/th/id/R.3349d8de8e7ad340662f18967f66eb0e?rik=FSU%2b9n9J2daO4w&riu=http%3a%2f%2fimage.slidesharecdn.com%2fhoneypothoneynet-120427190956-phpapp02%2f95%2fhoneypot-honeynet-6-728.jpg%3fcb%3d1335553876&ehk=4mlFfftK8rF8VWNssmu3FxnourLqUjAjFONMUQke1Qo%3d&risl=&pid=ImgRaw&r=0"
 				/>
 				<div ref={funcionRef}>
-					<ArticleSubtitle title="¿Cómo funcionan?" />
+					<ArticleSubtitle title="&#x1F937; ¿Cómo funcionan?" />
 				</div>
 				<p className="leading-loose py-2 text-justify text-sm">
 					Implementar las HoneyNets con la finalidad de identificar a los
