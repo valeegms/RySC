@@ -6,7 +6,9 @@ import AplicacionesServicios from "../IoT/AplicacionesServicios";
 import DatosRelevantes from "../IoT/DatosRelevantes";
 import IntroIoT from "../IoT/IntroIoT";
 import Nosotros from "../Nosotros";
+import HoneyNets from "../SeguridadDatosRed/HoneyNets";
 import IntroRed from "../SeguridadDatosRed/IntroRed";
+import Perimetrales from "../SeguridadDatosRed/Perimetrales";
 import HTTPS from "../SeguridadWeb/HTTPS";
 import { IntroWeb } from "../SeguridadWeb/IntroWeb";
 import SSL from "../SeguridadWeb/SSL";
@@ -39,6 +41,14 @@ export const AppRouter = () => {
 						element={<SeguridadDatosWeb />}
 					/>
 					<Route path="/seguridad-datos-red/Intro" element={<IntroRed />} />
+					<Route
+						path="/seguridad-datos-red/redes-perimetrales"
+						element={<Perimetrales />}
+					/>
+					<Route
+						path="/seguridad-datos-red/honeynets"
+						element={<HoneyNets />}
+					/>
 					<Route path="/nosotros" element={<Nosotros />} />
 				</Routes>
 			</section>
