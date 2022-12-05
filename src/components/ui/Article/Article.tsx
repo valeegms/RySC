@@ -8,8 +8,26 @@ export default function Article(props: any) {
 	);
 }
 
-export const ArticleBanner: React.FC<{ path: string }> = ({ path }) => {
-	return <img className="w-screen h-[320px] object-cover" src={path} alt="" />;
+export const ArticleBanner: React.FC<{ path: string; title: string }> = ({
+	path,
+	title,
+}) => {
+	return (
+		<div className="relative -z-10 p-2 ">
+			<img
+				className="w-screen rounded-md h-[320px] object-cover"
+				src={path}
+				alt=""
+			/>
+
+			<h1 className="bg-gray-800/50 p-6 w-fit m-auto rounded-md shadow-md absolute top-1/3 left-0 right-0 text-3xl font-bold text-violet-100">
+				{title}
+			</h1>
+			{/* <h1 className="w-fit m-auto absolute top-2/4 left-0 right-0 text-4xl font-bold text-white">
+				{title}
+			</h1> */}
+		</div>
+	);
 };
 
 export const ArticleImage: React.FC<{

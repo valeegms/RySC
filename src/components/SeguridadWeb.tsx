@@ -5,7 +5,10 @@ import { NavLink } from "react-router-dom";
 export const SeguridadWeb = () => {
 	return (
 		<section>
-			<ArticleBanner path="https://th.bing.com/th/id/R.41d685fbecf480b193ae0e360664525a?rik=qK2Xd46sWODkZA&pid=ImgRaw&r=0" />
+			<ArticleBanner
+				title={"Seguridad en la Web"}
+				path="./assets/img/background.svg"
+			/>
 			<div className="flex gap-8 mx-4 justify-center">
 				<ContentCard>
 					<ContentPhoto

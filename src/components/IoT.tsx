@@ -6,7 +6,10 @@ import ContentCard from "./ui/ContentCard";
 export default function IoT() {
 	return (
 		<section>
-			<ArticleBanner path="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/10/15095104/abstract_network_iot.jpg" />
+			<ArticleBanner
+				title="Internet de las Cosas"
+				path="./assets/img/background.svg"
+			/>
 			<div className="flex gap-8 mx-4 justify-center">
 				<ContentCard>
 					<ContentPhoto

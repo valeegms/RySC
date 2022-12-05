@@ -6,7 +6,10 @@ import ContentCard from "./ui/ContentCard";
 export const SeguridadDatosWeb = () => {
 	return (
 		<section>
-			<ArticleBanner path="./assets/img/placeholder.JPG" />
+			<ArticleBanner
+				title="Seguridad en la Comunicación de Datos de la Red"
+				path="./assets/img/background.svg"
+			/>
 			<div className="flex gap-8 mx-4 justify-center">
 				<ContentCard>
 					<ContentPhoto
