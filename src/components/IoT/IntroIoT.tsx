@@ -9,6 +9,7 @@ import Article, {
 import IndexCard from "../ui/IndexCard";
 
 export default function IntroIoT() {
+	window.scrollTo(0, 0);
 	const introRef = useRef<HTMLDivElement | null>(null);
 	const definicionRef = useRef<HTMLDivElement | null>(null);
 	const desafiosRef = useRef<HTMLDivElement | null>(null);

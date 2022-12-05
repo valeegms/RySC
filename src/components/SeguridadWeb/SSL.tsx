@@ -9,6 +9,7 @@ import Article, {
 import IndexCard from "../ui/IndexCard";
 
 export default function SSL() {
+	window.scrollTo(0, 0);
 	const historiaRef = useRef<HTMLDivElement | null>(null);
 	const definicionRef = useRef<HTMLDivElement | null>(null);
 	const funcionRef = useRef<HTMLDivElement | null>(null);

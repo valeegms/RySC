@@ -13,6 +13,7 @@ import ESP from "./ESP";
 import VPN from "./VPN";
 
 export default function IntroRed() {
+	window.scrollTo(0, 0);
 	const introRef = useRef<HTMLDivElement | null>(null);
 	const ipsecRef = useRef<HTMLDivElement | null>(null);
 	const vpnRef = useRef<HTMLDivElement | null>(null);

@@ -7,6 +7,7 @@ import Article, {
 } from "../ui/Article/Article";
 
 export default function SocketsTCPJava() {
+	window.scrollTo(0, 0);
 	return (
 		<Article>
 			<div className="flex w-full justify-between">

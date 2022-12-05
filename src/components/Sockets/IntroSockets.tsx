@@ -11,6 +11,7 @@ import IndexCard from "../ui/IndexCard";
 import TiposSockets from "./TiposSockets";
 
 export default function IntroSockets() {
+	window.scrollTo(0, 0);
 	const socketRef = useRef<HTMLDivElement | null>(null);
 	const origenRef = useRef<HTMLDivElement | null>(null);
 	const primitivasRef = useRef<HTMLDivElement | null>(null);

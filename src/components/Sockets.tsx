@@ -14,7 +14,7 @@ export const Sockets = () => {
 				<ContentCard>
 					<ContentPhoto
 						width={250}
-						path="https://th.bing.com/th/id/R.463c3a3340d4d5eac83877acc3e4143c?rik=mlHs7VrD%2f0jcRg&pid=ImgRaw&r=0"
+						path="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbJFmfU%2FbtqSATIzy9M%2FJerVc9stsZY9CuEgBV5360%2Fimg.png"
 					/>
 					<ContentTitle title="Introducción" />
 					<NavLink to="/sockets/Intro">

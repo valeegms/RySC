@@ -10,6 +10,7 @@ import Article, {
 import IndexCard, { ContentLink } from "../ui/IndexCard";
 
 export default function HTTPS() {
+	window.scrollTo(0, 0);
 	const protocoloRef = useRef<HTMLDivElement | null>(null);
 	const funcionRef = useRef<HTMLDivElement | null>(null);
 	const httpsvshttpRef = useRef<HTMLDivElement | null>(null);

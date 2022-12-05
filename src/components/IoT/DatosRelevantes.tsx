@@ -3,6 +3,7 @@ import { Badge, NavigateNext, NavigatePrevious } from "../ui";
 import Article, { ArticleContent, ArticleTitle } from "../ui/Article/Article";
 
 export default function DatosRelevantes() {
+	window.scrollTo(0, 0);
 	return (
 		<Article>
 			<div className="flex w-full justify-between">

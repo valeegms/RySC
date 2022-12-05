@@ -10,6 +10,7 @@ import Article, {
 import IndexCard from "../ui/IndexCard";
 
 export default function Perimetrales() {
+	window.scrollTo(0, 0);
 	const introRef = useRef<HTMLDivElement | null>(null);
 	const firewallsRef = useRef<HTMLDivElement | null>(null);
 	const idsRef = useRef<HTMLDivElement | null>(null);

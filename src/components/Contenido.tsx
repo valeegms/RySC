@@ -93,14 +93,14 @@ export const Contenido = () => {
 									Introducción
 								</button>
 							</NavLink>
-							<NavLink to="/sockets/">
+							<NavLink to="/sockets/sockets-tcp-java">
 								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-									Sección 1
+									Sockets TCP en Java
 								</button>
 							</NavLink>
-							<NavLink to="/sockets/">
+							<NavLink to="/sockets/sockets-udp-java">
 								<button className="border border-violet-700 text-violet-700 font-semibold hover:bg-violet-100 text-sm py-2 px-6 rounded-[4px] ">
-									Sección 2
+									Sockets UDP en Java
 								</button>
 							</NavLink>
 						</SectionCardBack>

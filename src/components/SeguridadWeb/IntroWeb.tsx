@@ -8,6 +8,7 @@ import Article, {
 } from "../ui/Article/Article";
 
 export const IntroWeb = () => {
+	window.scrollTo(0, 0);
 	return (
 		<Article>
 			<div className="float-right">

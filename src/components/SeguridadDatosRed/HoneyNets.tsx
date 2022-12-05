@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { NavLink } from "react-router-dom";
-import { Badge, ContentLink, NavigateNext, NavigatePrevious } from "../ui";
+import { Badge, ContentLink, NavigatePrevious } from "../ui";
 import Article, {
 	ArticleTitle,
 	ArticleContent,
@@ -10,6 +10,7 @@ import Article, {
 import IndexCard from "../ui/IndexCard";
 
 export default function HoneyNets() {
+	window.scrollTo(0, 0);
 	const introRef = useRef<HTMLDivElement | null>(null);
 	const funcionRef = useRef<HTMLDivElement | null>(null);
 	return (

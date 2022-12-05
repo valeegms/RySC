@@ -7,6 +7,7 @@ import Article, {
 } from "../ui/Article/Article";
 
 export default function AplicacionesServicios() {
+	window.scrollTo(0, 0);
 	return (
 		<Article>
 			<div className="w-fit">
